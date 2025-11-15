@@ -1,0 +1,17 @@
+{
+    "instagram": {
+        "access_token": "YOUR_INSTAGRAM_ACCESS_TOKEN_HERE",
+        "user_id": "YOUR_INSTAGRAM_USER_ID_HERE",
+        "api_version": "v18.0"
+    },
+    "backup_method": {
+        "use_web_scraping": true,
+        "instagram_username": "cedarandoakboutique"
+    },
+    "settings": {
+        "update_interval_hours": 6,
+        "backup_old_images": true,
+        "image_quality": "high",
+        "log_updates": true
+    }
+}

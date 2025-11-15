@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - Cedar and Oak Boutique">
+    
+    <title>Page Not Found - Cedar and Oak Boutique</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="Cedar & Oak Boutique Logo" class="logo-image">
+                    <div class="logo-text-fallback">
+                        <span class="logo-text">Cedar & Oak</span>
+                        <span class="logo-subtitle">Boutique</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="events.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 404 Error Section -->
+    <section class="error-section">
+        <div class="container">
+            <div class="error-content">
+                <div class="error-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h1 class="error-title">Page Not Found</h1>
+                <h2 class="error-subtitle">404 Error</h2>
+                <p class="error-message">
+                    Oops! The page you're looking for seems to have wandered off. 
+                    Don't worry, even our best pieces sometimes end up in unexpected places.
+                </p>
+                <div class="error-actions">
+                    <a href="index.html" class="btn btn-primary">Return Home</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                </div>
+                
+                <!-- Helpful Links -->
+                <div class="helpful-links">
+                    <h3>Looking for something specific?</h3>
+                    <div class="links-grid">
+                        <a href="about.html" class="help-link">
+                            <i class="fas fa-info-circle"></i>
+                            <span>About Our Store</span>
+                        </a>
+                        <a href="events.html" class="help-link">
+                            <i class="fas fa-calendar"></i>
+                            <span>Upcoming Events</span>
+                        </a>
+                        <a href="contact.html" class="help-link">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Visit Our Location</span>
+                        </a>
+                        <a href="contact.html#services" class="help-link">
+                            <i class="fas fa-concierge-bell"></i>
+                            <span>Our Services</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cedar & Oak Boutique</h3>
+                    <p>Your destination for curated fashion and unique style in New Lenox.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/cedarandoakboutique/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/cedarandoaknewlenox" target="_blank" rel="noopener" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> New Lenox, IL</p>
+                    <p><i class="fas fa-phone"></i> (815) 555-0123</p>
+                    <p><i class="fas fa-envelope"></i> info@cedarandoakboutique.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Store Hours</h4>
+                    <p>Monday - Friday: 10AM - 7PM</p>
+                    <p>Saturday: 10AM - 6PM</p>
+                    <p>Sunday: 12PM - 5PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Cedar & Oak Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <style>
+        .error-section {
+            padding: 150px 0 100px;
+            background: linear-gradient(135deg, var(--light-accent) 0%, var(--secondary-color) 50%);
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .error-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .error-icon {
+            width: 120px;
+            height: 120px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            animation: pulse 2s infinite;
+        }
+
+        .error-icon i {
+            font-size: 3rem;
+            color: var(--white);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .error-title {
+            font-size: 3rem;
+            color: var(--dark-text);
+            margin-bottom: 0.5rem;
+        }
+
+        .error-subtitle {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .error-message {
+            font-size: 1.2rem;
+            color: var(--medium-text);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-bottom: 4rem;
+            flex-wrap: wrap;
+        }
+
+        .helpful-links {
+            background-color: var(--white);
+            border-radius: 12px;
+            padding: 3rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .helpful-links h3 {
+            color: var(--dark-text);
+            margin-bottom: 2rem;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .help-link {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: var(--background);
+            border-radius: 8px;
+            color: var(--medium-text);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .help-link:hover {
+            background-color: var(--light-accent);
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .help-link i {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .error-title {
+                font-size: 2.5rem;
+            }
+
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .helpful-links {
+                padding: 2rem;
+            }
+        }
+    </style>
+</body>
+</html>

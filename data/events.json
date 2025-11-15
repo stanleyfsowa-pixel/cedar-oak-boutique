@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Fall Fashion Show",
+      "date": "2023-10-28",
+      "time": "18:00",
+      "endTime": "20:00",
+      "location": "Cedar & Oak Boutique",
+      "description": "Join us for an exclusive preview of our fall collection featuring warm layers, cozy textures, and rich autumn colors. Light refreshments will be served.",
+      "category": "fashion-show",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Holiday Shopping Event",
+      "date": "2023-11-15",
+      "time": "10:00",
+      "endTime": "19:00",
+      "location": "Cedar & Oak Boutique",
+      "description": "Start your holiday shopping early with special discounts, complimentary gift wrapping, and personalized styling consultations for gift recipients.",
+      "category": "shopping-event",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Winter Styling Workshop",
+      "date": "2023-12-02",
+      "time": "14:00",
+      "endTime": "16:00",
+      "location": "Cedar & Oak Boutique",
+      "description": "Learn how to layer stylishly for winter weather and create versatile looks that transition from day to night. Includes hands-on styling tips and tricks.",
+      "category": "workshop",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "title": "New Year, New Style Event",
+      "date": "2024-01-06",
+      "time": "11:00",
+      "endTime": "17:00",
+      "location": "Cedar & Oak Boutique",
+      "description": "Start the new year with a fresh perspective on your personal style. Enjoy 20% off select items and complimentary wardrobe consultations.",
+      "category": "shopping-event",
+      "featured": false
+    },
+    {
+      "id": "5",
+      "title": "Valentine's Day Trunk Show",
+      "date": "2024-02-10",
+      "time": "12:00",
+      "endTime": "18:00",
+      "location": "Cedar & Oak Boutique",
+      "description": "Discover romantic pieces perfect for date nights and special occasions. Featured designer will be present for meet and greet.",
+      "category": "trunk-show",
+      "featured": false
+    },
+    {
+      "id": "6",
+      "title": "Spring Preview Party",
+      "date": "2024-03-16",
+      "time": "17:00",
+      "endTime": "20:00",
+      "location": "Cedar & Oak Boutique",
+      "description": "Be the first to see our spring collection featuring fresh colors, flowing fabrics, and versatile pieces perfect for the changing season.",
+      "category": "fashion-show",
+      "featured": false
+    }
+  ]
+}
