@@ -1,6 +1,16 @@
 # Cedar & Oak Boutique Website
 
-A modern, elegant website for Cedar & Oak Boutique in New Lenox, featuring a responsive design, interactive events calendar, and professional business presentation.
+A modern, elegant website for Cedar & Oak Boutique in New Lenox, featuring a responsive design, Instagram integration, and event promotions.
+
+## 🌐 Live Website
+**https://stanleyfsowa-pixel.github.io/cedar-oak-boutique/**
+
+### Deployment Status
+- ✅ Deployed to GitHub Pages
+- ✅ Custom event graphics (Paint Your Pet, Christmas Sip & See, Jewelry Pop-up, etc.)
+- ✅ Instagram-style feed section
+- ✅ Responsive mobile design
+- ✅ Contact form integration
 
 ## 🌟 Features
 
