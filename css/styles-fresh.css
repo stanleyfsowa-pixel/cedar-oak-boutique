@@ -397,7 +397,23 @@ a {
 /* ===== ABOUT PREVIEW SECTION ===== */
 .about-preview {
     padding: 100px 0;
-    background-color: var(--white);
+    background: linear-gradient(135deg, #f5ebe0 0%, #e8d5c4 50%, #f5ebe0 100%);
+    position: relative;
+}
+
+.about-preview::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        repeating-linear-gradient(90deg, rgba(139, 90, 43, 0.03) 0px, transparent 1px, transparent 2px, rgba(139, 90, 43, 0.03) 3px),
+        repeating-linear-gradient(0deg, rgba(139, 90, 43, 0.03) 0px, transparent 1px, transparent 2px, rgba(139, 90, 43, 0.03) 3px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    opacity: 0.5;
 }
 
 .about-content {
@@ -405,6 +421,8 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .about-text h2 {
