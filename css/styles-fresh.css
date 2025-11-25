@@ -775,7 +775,7 @@ a {
 
 /* ===== FOOTER ===== */
 .footer {
-    background-color: var(--dark-text);
+    background-color: #4E342E;
     color: var(--white);
     padding: 60px 0 20px;
 }
