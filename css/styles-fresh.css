@@ -671,13 +671,62 @@ a {
 /* ===== HOMEPAGE CONTACT FORM ===== */
 .contact-section {
     padding: 80px 0;
-    background-color: var(--primary-color);
+    background:
+        repeating-linear-gradient(
+            0deg,
+            #f8f6f4 0px,
+            #f8f6f4 148px,
+            #e8e6e4 148px,
+            #e8e6e4 150px,
+            #f5f3f1 150px,
+            #f5f3f1 298px,
+            #e8e6e4 298px,
+            #e8e6e4 300px
+        );
+    position: relative;
+}
+
+.contact-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        repeating-linear-gradient(90deg,
+            transparent,
+            transparent 2px,
+            rgba(0, 0, 0, 0.02) 2px,
+            rgba(0, 0, 0, 0.02) 4px),
+        repeating-linear-gradient(0deg,
+            rgba(139, 90, 43, 0.015) 0px,
+            transparent 1px,
+            transparent 3px,
+            rgba(139, 90, 43, 0.015) 4px);
+    pointer-events: none;
+}
+
+.contact-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(ellipse at 20% 30%, rgba(200, 180, 160, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 70%, rgba(180, 160, 140, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 40% 80%, rgba(190, 170, 150, 0.09) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .contact-form-container {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .contact-form-container h2 {
